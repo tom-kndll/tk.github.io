@@ -27,14 +27,6 @@ nav .navbar{
   align-items: center;
   margin: auto;
 }
-nav .navbar .logo a{
-  font-weight: 500;
-  font-size: 35px;
-  color: #E96300;
-}
-nav.sticky .navbar .logo a{
-  color: #fff;
-}
 nav .navbar .menu{
   display: flex;
   position: relative;
@@ -51,7 +43,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #0E2431;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -60,7 +52,7 @@ nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: #E96300;
+  color: #FFFFFF;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -80,7 +72,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #0E2431;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -164,7 +156,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #4070f4;
+  background: #0E2431;
   left: 0;
   bottom: 0;
 }
