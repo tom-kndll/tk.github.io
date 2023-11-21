@@ -16,11 +16,12 @@ header{
   background: #;
 }
 .background {
-  background-image: url('your-gif-url.gif');
+  background-image: url('Blue-bg.gif');
   background-position: center;
   background-size: cover;
   overflow: hidden;
-}header nav{
+}
+header nav{
   position: fixed;
   width: 100%;
   left: 0;
