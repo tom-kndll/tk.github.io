@@ -59,28 +59,7 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
-/* Side Navigation Menu Button CSS */
-nav .menu-btn,
-.navbar .menu .cancel-btn{
-  position: absolute;
-  color: #fff;
-  right: 30px;
-  top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none;
-}
-nav .menu-btn{
-  color: #FFFFFF;
-}
-nav.sticky .menu-btn{
-  color: #FFF;
-}
-.navbar .menu .menu-btn{
-  color: #fff;
-}
-/* home section styling */
+
 .home{
   height: 100vh;
   width: 100%;
@@ -97,10 +76,6 @@ nav.sticky .menu-btn{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-.home .text-one{
-  font-size: 25px;
-  color: #0E2431;
 }
 .home .text-two{
   color: #0E2431;
