@@ -38,18 +38,18 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #D4D0CBAA;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #0E2431;
+  color: #D4D0CBAA;
 }
 nav.sticky .menu a{
   color: #FFF;
 }
 nav.sticky .menu a:hover{
-  color: #0E2431;
+  color: #D4D0CBAA;
 }
 .navbar .media-icons a{
   color: #FFFFFF;
