@@ -15,12 +15,7 @@ header{
 ::selection{
   background-image: url('Blue-bg.gif');
 }
-.background {
-  background-image: url('Blue-bg.gif');
-  background-position: center;
-  background-size: cover;
-  overflow: hidden;
-}
+
 header nav{
   position: fixed;
   width: 100%;
