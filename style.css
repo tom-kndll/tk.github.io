@@ -59,7 +59,7 @@ nav.sticky .menu a:hover{
 nav.sticky .media-icons a{
   color: #FFF;
 }
-/* Side Navigation Menu Button CSS */
+
 nav .menu-btn,
 .navbar .menu .cancel-btn{
   position: absolute;
@@ -80,7 +80,7 @@ nav.sticky .menu-btn{
 .navbar .menu .menu-btn{
   color: #fff;
 }
-/* home section styling */
+
 .home{
   height: 100vh;
   width: 100%;
@@ -186,7 +186,7 @@ section .button button:hover{
   background-color: #fff;
   color: #4070f4;
 }
- /* My Skills CSS */
+
  .skills{
    background: #F0F8FF;
  }
@@ -239,38 +239,7 @@ section .button button:hover{
   font-size: 60px;
   color: #4070f4;
 }
-/* My Services CSS */
-.services .boxes{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.services .boxes .box{
-  margin: 20px 0;
-  width: calc(100% / 3 - 20px);
-  text-align: center;
-  border-radius: 12px;
-  padding: 30px 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-  cursor: default;
-  transition: all 0.4s ease;
-}
-.services .boxes .box:hover{
-  background: #4070f4;
-  color: #fff;
-}
-.services .boxes .box .icon{
-  height: 50px;
-  width: 50px;
-  background: #4070f4;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-  color: #fff;
-  margin: 0 auto 10px auto;
-  transition: all 0.4s ease;
-}
+
 .boxes .box:hover .icon{
   background-color: #fff;
   color: #4070f4;
@@ -285,31 +254,6 @@ section .button button:hover{
   color: #fff;
 }
 
-/* Responsive Media Query */
-@media (max-width: 1190px) {
-  section .content{
-    width: 85%;
-  }
-}
-@media (max-width: 1000px) {
-  .about .about-details{
-    justify-content: center;
-    flex-direction: column;
-  }
-  .about .about-details .left{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .about-details .right{
-    width: 90%;
-    margin: 40px 0;
-  }
-  .services .boxes .box{
-    margin: 20px 0;
-    width: calc(100% / 2 - 20px);
-  }
-}
 @media (max-width: 900px) {
   .about .left img{
     height: 350px;
